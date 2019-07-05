@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements PageFragment.MyIn
         sp = getSharedPreferences("Layout", MODE_PRIVATE);
         boolean isLinearView = sp.getBoolean("Layout",true);
 
+        
         adapter = new MyAdapter(this, images_names, images_paths, isLinearView,DEFAULT_SCALE);
         recyclerView.setLayoutManager(isLinearView ? new LinearLayoutManager(this) : new GridLayoutManager(this, 3));
 
