@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements PageFragment.MyIn
                 .loadLayoutAnimation(getApplicationContext(), isLinearView ? R.anim.layout_animation_left_to_right : R.anim.grid_layout_animation_from_bottom );
         recyclerView.setLayoutAnimation(animation);
 
+        
         adapter.setOnItemClickListener(onItemClickListener);
 
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
