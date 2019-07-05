@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements PageFragment.MyIn
         setContentView(R.layout.activity_main);
 
         recyclerView = findViewById(R.id.recyclerView);
-
         mPager = (ViewPager) findViewById(R.id.pager);
         mPager.setVisibility(View.GONE);
 
