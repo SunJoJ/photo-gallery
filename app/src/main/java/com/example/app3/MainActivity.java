@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity implements PageFragment.MyIn
             mPager.setPageTransformer(true, new DepthPageTransformer());
             mPager.setCurrentItem(position);
 
-            
+
         }
     };
 
