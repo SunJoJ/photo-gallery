@@ -190,12 +190,7 @@ public class MainActivity extends AppCompatActivity implements PageFragment.MyIn
             mPager.setPageTransformer(true, new DepthPageTransformer());
             mPager.setCurrentItem(position);
 
-            //imageFragment.setArguments(extras);
-            /*fragmentTransaction.add(R.id.container, imageFragment);
-            fragmentTransaction.addToBackStack(null);
-            fragmentTransaction.commit();*/
-            //getFragmentManager().beginTransaction()  .replace(R.id.container, imageFragment).addToBackStack(null).commit();
-            //recyclerView.setVisibility(View.GONE);
+            
         }
     };
 
